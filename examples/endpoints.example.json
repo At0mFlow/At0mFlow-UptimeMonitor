@@ -1,0 +1,19 @@
+{
+  "endpoints": [
+    {
+      "name": "Example home",
+      "uri": "https://example.com/",
+      "method": "GET",
+      "expectedStatusCodes": [200],
+      "containsText": "Example Domain",
+      "timeoutSeconds": 10
+    },
+    {
+      "name": "IANA home",
+      "uri": "https://www.iana.org/",
+      "method": "HEAD",
+      "expectedStatusCodes": [200],
+      "timeoutSeconds": 10
+    }
+  ]
+}

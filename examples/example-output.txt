@@ -1,0 +1,29 @@
+========================================================================
+
+       █████╗ ████████╗ ██████╗ ███╗   ███╗███████╗██╗      ██████╗ ██╗    ██╗
+      ██╔══██╗╚══██╔══╝██╔═████╗████╗ ████║██╔════╝██║     ██╔═══██╗██║    ██║
+      ███████║   ██║   ██║██╔██║██╔████╔██║█████╗  ██║     ██║   ██║██║ █╗ ██║
+      ██╔══██║   ██║   ████╔╝██║██║╚██╔╝██║██╔══╝  ██║     ██║   ██║██║███╗██║
+      ██║  ██║   ██║   ╚██████╔╝██║ ╚═╝ ██║██║     ███████╗╚██████╔╝╚███╔███╔╝
+      ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝
+
+                     PowerShell clarity.
+                      Orbit-level control.
+
+                   ANALYSE | CLEAN | MIGRATE | MONITOR
+
+                         https://at0mflow.com
+
+========================================================================
+
+At0mFlow Uptime Monitor
+Checked 2 endpoints at 2026-08-26 02:00:00Z.
+Summary: 2 up, 0 down.
+
+[UP] Example home  HTTP 200  142.3 ms
+  https://example.com/
+
+[UP] IANA home  HTTP 200  181.7 ms
+  https://www.iana.org/
+
+This file is illustrative. Live response times and availability will vary.
