@@ -167,6 +167,9 @@ controls.
 
 - [At0mFlow PSAnalyzer](https://github.com/At0mFlow/At0mFlow-PSAnalyzer) turns
   PSScriptAnalyzer findings into readable console, object, JSON and CSV output.
+- [At0mFlow Script Audit](https://github.com/At0mFlow/At0mFlow-ScriptAudit)
+  collects custom PowerShell scripts and scheduled-task context into one
+  reviewable folder tree.
 
 If you need to go beyond small command-line checks, [At0mFlow](https://at0mflow.com/)
 helps teams understand, document, clean up, migrate and track PowerShell estates.
