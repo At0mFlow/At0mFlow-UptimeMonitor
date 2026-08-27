@@ -170,6 +170,9 @@ controls.
 - [At0mFlow Script Audit](https://github.com/At0mFlow/At0mFlow-ScriptAudit)
   collects custom PowerShell scripts and scheduled-task context into one
   reviewable folder tree.
+- [At0mFlow RepoSync](https://github.com/At0mFlow/At0mFlow-RepoSync) safely
+  commits and optionally pushes explicit paths from an existing Git working
+  tree.
 
 If you need to go beyond small command-line checks, [At0mFlow](https://at0mflow.com/)
 helps teams understand, document, clean up, migrate and track PowerShell estates.
