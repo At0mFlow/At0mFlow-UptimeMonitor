@@ -47,6 +47,7 @@ function Write-At0mFlowWordmark {
     [CmdletBinding()]
     param()
 
+    $orbitLines = @(Get-Content -LiteralPath (Join-Path $PSScriptRoot 'Orbit.Console.txt'))
     $logoLines = @(
         '       #####> ########> ######> ###>   ###>#######>##>      ######> ##>    ##>'
         '      ##<--##>[--##<--]##<-####>####> ####|##<----]##|     ##<---##>##|    ##|'
@@ -65,7 +66,11 @@ function Write-At0mFlowWordmark {
         '|' = [char] 0x2551
     }
 
-    Write-Host '========================================================================' -ForegroundColor DarkGray
+    Write-Host ('=' * 98) -ForegroundColor DarkGray
+    Write-Host ''
+    foreach ($orbitLine in $orbitLines) {
+        Write-Host $orbitLine -ForegroundColor Green
+    }
     Write-Host ''
     foreach ($logoLine in $logoLines) {
         $renderedLogoLine = $logoLine
@@ -85,7 +90,7 @@ function Write-At0mFlowWordmark {
     Write-Host ''
     Write-Host '                         https://at0mflow.com' -ForegroundColor DarkCyan
     Write-Host ''
-    Write-Host '========================================================================' -ForegroundColor DarkGray
+    Write-Host ('=' * 98) -ForegroundColor DarkGray
 }
 
 function Test-At0mFlowEndpoint {

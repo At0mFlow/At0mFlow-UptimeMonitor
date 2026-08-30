@@ -46,8 +46,11 @@ Fail a CI step when any endpoint is down:
 
 ## What the output looks like
 
+Interactive runs open with the full [Orbit console mascot](src/At0mFlow.UptimeMonitor/Orbit.Console.txt)
+above the At0mFlow wordmark. The sample below starts at the wordmark.
+
 ```text
-========================================================================
+==================================================================================================
 
        █████╗ ████████╗ ██████╗ ███╗   ███╗███████╗██╗      ██████╗ ██╗    ██╗
       ██╔══██╗╚══██╔══╝██╔═████╗████╗ ████║██╔════╝██║     ██╔═══██╗██║    ██║
@@ -63,7 +66,7 @@ Fail a CI step when any endpoint is down:
 
                          https://at0mflow.com
 
-========================================================================
+==================================================================================================
 
 At0mFlow Uptime Monitor
 Checked 1 endpoint at 2026-08-26 02:00:00Z.
@@ -112,7 +115,7 @@ Run exactly five checks:
     -IntervalSeconds 30
 ```
 
-The At0mFlow wordmark is shown once per interactive run, not before every
+Orbit and the At0mFlow wordmark are shown once per interactive run, not before every
 interval.
 
 ## Structured output

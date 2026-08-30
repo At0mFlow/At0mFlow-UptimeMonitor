@@ -1,6 +1,6 @@
 @{
     RootModule        = 'At0mFlow.UptimeMonitor.psm1'
-    ModuleVersion     = '1.0.0'
+    ModuleVersion     = '1.0.1'
     GUID              = 'e8ef3ef7-b557-4bc5-8c7f-3a80f893339b'
     Author            = 'At0mFlow'
     CompanyName       = 'At0mFlow'

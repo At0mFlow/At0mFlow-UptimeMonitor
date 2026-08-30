@@ -32,7 +32,7 @@ try {
     New-Item -ItemType Directory -Path $temporaryRoot | Out-Null
 
     $manifest = Test-ModuleManifest -Path $modulePath
-    Assert-That ($manifest.Version.ToString() -eq '1.0.0') 'The module manifest is valid.'
+    Assert-That ($manifest.Version.ToString() -eq '1.0.1') 'The module manifest is valid.'
 
     Import-Module $modulePath -Force
 
@@ -145,6 +145,7 @@ try {
         (($block * 8) -join '') + [char] 0x2557 + ' ' +
         (($block * 6) -join '') + [char] 0x2557
     )
+    Assert-That $consoleText.Contains(('@' * 26)) 'Console output renders the Orbit mascot.'
     Assert-That $consoleText.Contains($topLeftLogoFragment) 'Console output renders the At0mFlow block wordmark.'
     Assert-That ($consoleText -match 'PowerShell clarity\.') 'Console output includes the At0mFlow wordmark.'
     Assert-That ($consoleText -match 'At0mFlow Uptime Monitor') 'Console output identifies the tool.'
